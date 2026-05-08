@@ -1,0 +1,52 @@
+4. Hasil Estimasi dan Analisis Kuantitatif
+Bagian ini menyajikan hasil ekstraksi data empiris menggunakan model Autoregressive Distributed Lag (ARDL). Temuan komputasional ini memvalidasi anomali transisi energi dan kegagalan decoupling struktural di Indonesia selama periode observasi.
+4.1 Uji Prasyarat Stasioneritas (Augmented Dickey-Fuller)
+Syarat fundamental dalam pengujian ARDL adalah memastikan tidak ada variabel yang terintegrasi pada derajat I(2). Hasil uji Augmented Dickey-Fuller (ADF) menunjukkan bahwa variabel Emisi Karbon (LN_CO2), Pertumbuhan Ekonomi (PDB), dan bauran Energi Baru Terbarukan (EBT) tidak stasioner pada tingkat Level (p-value > 0.05). Namun, seluruh variabel berhasil mencapai stasioneritas pada diferensiasi pertama atau I(1) dengan tingkat signifikansi yang kuat (p-value < 0.05). Kondisi ini mengesahkan kelayakan penggunaan spesifikasi ARDL Bounds Testing.
+
+4.2 Uji Kointegrasi (ARDL Bounds Testing)
+Pengujian kointegrasi dilakukan untuk mengonfirmasi keberadaan ekuilibrium jangka panjang antarvariabel. Berdasarkan estimasi model ARDL, nilai F-Statistic tercatat sebesar 5.075.
+Bounds Tests
+
+Bounds Critical Values
+
+
+Nilai F-Statistic tersebut secara absolut melampaui ambang batas atas (Upper Bound) I(1) pada taraf signifikansi 5% yang bernilai 4.428. Penolakan hipotesis nol ini memberikan justifikasi ekonometrika bahwa lintasan pertumbuhan ekonomi, penetrasi EBT, dan eskalasi emisi karbon di Indonesia tidak bergerak secara acak, melainkan terikat dalam hubungan asimtotik jangka panjang yang permanen.
+4.3 Ekstraksi Elastisitas: Efek Penguncian Struktural dan Paradoks Jevons
+Analisis terhadap parameter regresi jangka panjang dan jangka pendek mengonfirmasi keberadaan anomali kebijakan energi di Indonesia. Model menghasilkan nilai koefisien penyesuaian (Error Correction Term / COINTEQ) sebesar -1.740 dengan probabilitas 0.0006. Nilai negatif dan teramat signifikan ini menggaransi bahwa stabilitas model sangat solid, di mana guncangan ketidakseimbangan sistem akan dikoreksi secara agresif menuju garis ekuilibrium pada tahun kalender berikutnya.
+Long-run Regressors
+Cointegrating Specification
+
+Cointegrating Coefficients
+
+Cointegrating Series
+
+
+Short-run Regressors & Cointeq
+Conditional Error Correction
+
+
+Error Correction
+
+Pada dimensi ekuilibrium jangka panjang (Long-run Regressors), koefisien PDB menunjukkan nilai positif sebesar 0.0428 (p-value 0.0283). Temuan ini membuktikan eksistensi Structural Lock-in Effect. Mengingat arsitektur ekonomi Indonesia berbasis pada ekspor komoditas ekstraktif padat karbon (batu bara dan nikel), setiap persentase pertumbuhan PDB secara inheren akan mengunci dan menyumbang tambahan emisi karbon secara permanen. Kurva Environmental Kuznets Curve (EKC) Indonesia masih berada pada fase mendaki dan gagal mencapai titik balik pelandaian.
+Anomali terbesar terdeteksi pada dinamika variabel EBT. Baik dalam jangka pendek (D(EBT) = 0.0292, p-value 0.0021) maupun jangka panjang (EBT(-1) = 0.0763, p-value 0.0170), transisi energi hijau secara konsisten berkorelasi positif terhadap kenaikan emisi. Bukti empiris ini merupakan manifestasi absolut dari Paradoks Jevons dalam skala eskalasi ekstrem (Backfire Effect). Injeksi kapasitas EBT yang menurunkan Levelized Cost of Electricity (LCOE) justru merangsang efek substitusi; korporasi mengekspansi skala produksi dan utilitas jaringan merespons intermitensi (fluktuasi) EBT dengan menyalakan PLTU peaker secara lebih agresif, sehingga akumulasi emisi justru melonjak alih-alih mereda.
+4.4 Uji Diagnostik Residu dan Stabilitas Model
+Guna menjustifikasi ketangguhan (robustness) temuan empiris, serangkaian uji asumsi klasik diterapkan pada residu model. Model ARDL ini lolos secara sempurna dari seluruh ancaman bias ekonometrika:
+1. Uji Autokorelasi (Breusch-Godfrey LM Test): Probabilitas Chi-Square sebesar 0.0820 (> 0.05) mengonfirmasi ketiadaan korelasi serial pada galat pengganggu.
+2. Uji Heteroskedastisitas (Breusch-Pagan-Godfrey): Probabilitas Chi-Square sebesar 0.4464 (> 0.05) menjamin varians residu yang konstan (homoskedastisitas).
+3. Uji Normalitas: Nilai probabilitas Jarque-Bera sebesar 0.7759 (> 0.05) memvalidasi distribusi normal residu.
+Tabel Autokorelasi
+
+Tabel Heteroskedastisitas
+
+Grafik Histogram Normalitas
+
+Lebih jauh, plot pengujian stabilitas struktural Cumulative Sum (CUSUM) dan CUSUM of Squares mendemonstrasikan bahwa garis fluktuasi residu (garis biru) secara konsisten bergerak di dalam koridor interval kepercayaan 5% (pita merah). Hal ini membuktikan bahwa parameter model yang mengonfirmasi Paradoks Jevons ini sangat stabil dan resisten terhadap guncangan syok ekonomi eksternal.
+Grafik CUSUM
+
+Grafik CUSUM of Squares
+
+Variabel | Tingkat Level |  | Tingkat 1st Difference |  | Derajat Integrasi
+ | t-Statistic | Prob. | t-Statistic | Prob. | 
+Emisi Karbon (LN_CO2) | 1.9234 | 0.9992 | -3.5075 | 0.0258 | I(1)
+PDB Riil | -2.9162 | 0.0685 | -3.3649 | 0.0398 | I(1)
+Penetrasi EBT | 0.9998 | 0.9936 | -4.6174 | 0.0039 | I(1)
