@@ -1,4 +1,4 @@
-# Ringkasan Sesi Penyusunan Artikel — V1
+# Ringkasan Sesi Penyusunan Artikel — V2
 
 ---
 
@@ -18,7 +18,7 @@ Penelitian ini mengkaji hubungan antara **pertumbuhan ekonomi (PDB)** dan **pene
 
 ## 2. Apa yang Sedang Dikerjakan
 
-Menyusun **draft pertama artikel ilmiah** dengan struktur IMRAD (Introduction, Method, Results, and Discussion) berdasarkan tiga file sumber di atas. Pada tahap ini, **teori dan rujukan belum dimasukkan secara penuh** -- hanya ditandai dengan format `(*NAMA TEORI / SUMBER RUJUKAN*)` agar mudah dilengkapi di revisi berikutnya.
+Menyusun dan merevisi **draft artikel ilmiah (V2)** dengan struktur IMRAD (Introduction, Method, Results, and Discussion) berdasarkan tiga file sumber di atas. Pada tahap ini, bagian tinjauan pustaka telah disusun komprehensif, seluruh placeholder teori telah diintegrasikan menjadi kutipan standar akademis (APA Style), dan Daftar Pustaka lengkap telah ditambahkan.
 
 ---
 
@@ -28,26 +28,30 @@ Menyusun **draft pertama artikel ilmiah** dengan struktur IMRAD (Introduction, M
 - [X] Mengekstrak data mentah dari `Data siap olah.xlsx` (15 tahun, 3 variabel)
 - [X] Membaca hasil pengolahan data dari `hasil pemahasan.docx`
 - [X] Menyusun **Bagian 1: Latar Belakang** -- termasuk deskripsi data, rumusan masalah, dan urgensi
-- [X] Menyusun **Bagian 2: Literature Review** -- dalam bentuk placeholder (7 topik ditandai)
+- [ ] Menyusun **Bagian 2: Literature Review** -- dalam bentuk placeholder (7 topik ditandai)
 - [X] Menyusun **Bagian 3: Method, Data, dan Analisis** -- tabel data lengkap, deskripsi metode ARDL, tahapan analisis
 - [X] Menyusun **Bagian 4: Hasil dan Diskusi** -- uji ADF, Bounds Test, koefisien jangka panjang/pendek, Paradoks Jevons, uji diagnostik, CUSUM
 - [X] Menyusun **Bagian 5: Kesimpulan dan Saran** -- 2 temuan utama + 5 rekomendasi kebijakan
-- [X] Output tersimpan di: **`DRAFT-ARTIKEL-V1.md`**
+- [X] Output tersimpan di: **`DRAFT-ARTIKEL-V2.md`**
+- [X] Melengkapi Tinjauan Pustaka (Literature Review) dengan lebih dari 20 referensi
+- [X] Mengganti seluruh placeholder teori pendukung menjadi in-text citation yang benar
+- [X] Menyusun Daftar Pustaka (Bibliography)
+- [X] Output versi terbaru tersimpan di: **`DRAFT-ARTIKEL-V2.md`**
 
 ---
 
 ## 4. Apa yang Perlu Ditambahkan
 
-| No | Item                                         | Status        | Keterangan                                                           |
-| -- | -------------------------------------------- | ------------- | -------------------------------------------------------------------- |
-| 1  | **Literature Review**                  | Belum         | Perlu diisi dengan tinjauan pustaka lengkap (minimal 15--20 rujukan) |
-| 2  | **Teori-teori pendukung**              | Ditandai saja | Masih dalam format placeholder `(*...*)`                           |
-| 3  | **Abstrak**                            | Belum         | Belum disusun (biasanya ditulis terakhir)                            |
-| 4  | **Kata Kunci**                         | Belum         | Perlu ditambahkan setelah abstrak                                    |
-| 5  | **Daftar Pustaka**                     | Belum         | Menunggu teori dan rujukan final                                     |
-| 6  | **Grafik dan Tabel visual**            | Belum         | Lihat bagian 5 di bawah                                              |
-| 7  | **Judul final**                        | Draft         | Judul sementara sudah ada, perlu finalisasi                          |
-| 8  | **Narasi penghubung antar-sub-bagian** | Perlu dipoles | Transisi antar paragraf perlu diperhalus                             |
+| No | Item                                         | Status        | Keterangan                                                |
+| -- | -------------------------------------------- | ------------- | --------------------------------------------------------- |
+| 1  | **Literature Review**                  | Selesai       | Telah diisi dengan tinjauan pustaka lengkap (>20 rujukan) |
+| 2  | **Teori-teori pendukung**              | Selesai       | Telah diintegrasikan ke dalam teks beserta sitasi         |
+| 3  | **Abstrak**                            | Belum         | Belum disusun (biasanya ditulis terakhir)                 |
+| 4  | **Kata Kunci**                         | Belum         | Perlu ditambahkan setelah abstrak                         |
+| 5  | **Daftar Pustaka**                     | Selesai       | Telah ditambahkan di bagian akhir artikel                 |
+| 6  | **Grafik dan Tabel visual**            | Belum         | Lihat bagian 5 di bawah                                   |
+| 7  | **Judul final**                        | Draft         | Judul sementara sudah ada, perlu finalisasi               |
+| 8  | **Narasi penghubung antar-sub-bagian** | Perlu dipoles | Transisi antar paragraf perlu diperhalus                  |
 
 ---
 
